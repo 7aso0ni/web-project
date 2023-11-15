@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  width: 100%;
+  background-color: #053a40;
+}
+
+.header-content {
+  margin-left: 4.5em;
+  background-color: #195973;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header {
+  margin: 5px 30px 20px 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header nav a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  background-color: #1de9b6;
+  color: black;
+}
+
+.main-content {
+  margin: 0 4.5em;
+  background: url(jonathan-borba-3o5oUjrD90w-unsplash_1.jpg) no-repeat center
+    center fixed;
+  background-size: cover;
+  width: 90%;
+  height: 40em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content p {
+  color: white;
+  font-size: 16px;
+  width: 50%;
+  margin: 0 50px 0 50px;
+}
+
+.main-content img {
+  /* margin: 0 50px 0 50px; */
+  width: 40%;
+  height: 22em;
+}
+
+footer {
+  margin: 0 4.5em;
+  width: 90%;
+  height: 10em;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #195973;
+  color: white;
+  padding: 20px;
+}
+
+footer nav a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+footer nav a:hover {
+  background-color: #1de9b6;
+  color: black;
+}
