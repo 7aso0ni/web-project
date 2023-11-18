@@ -1,88 +1,60 @@
-body {
+body{
+    color: white;
+    margin: 0;
+    border-left: 3em solid #053A40;
+    border-right: 3em solid #053A40;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    
+    background-color: #195973;
+    width: 100%;
+}
+#header #title{
+    font-size: 4em;
+    margin: 0.5em;
+}
+#nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+
+
+#nav li{
+    color: white;
+}
+#nav li:hover{
+    color: black;
+    text-decoration: underline;
+}
+#main {
   margin: 0;
-  padding: 0;
-  /* height: 100%; */
-  width: 100%;
-  background-color: #053a40;
-}
-
-.header-content {
-  margin-left: 4.5em;
-  background-color: #195973;
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.header {
-  margin: 5px 30px 20px 50px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-.header nav a {
-  color: white;
-  padding: 20px;
-  text-decoration: none;
-}
-
-.header nav a:hover {
-  background-color: #1de9b6;
-  color: black;
-}
-
-.main-content {
-  margin: 0 4.5em;
-  background: url(jonathan-borba-3o5oUjrD90w-unsplash_1.jpg) no-repeat center
-    center fixed;
+  background: url(jonathan-borba-3o5oUjrD90w-unsplash_1.jpg) no-repeat center center fixed;
   background-size: cover;
-  width: 90%;
-  height: 40em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 100%;
+    height: 100vh;
+    display: flex;
 }
 
-.main-content p {
-  color: white;
-  font-size: 16px;
-  width: 50%;
-  margin: 0 50px 0 50px;
-}
-
-.main-content img {
-  /* margin: 0 50px 0 50px; */
-  width: 40%;
-  height: 22em;
-}
-
-footer {
-  margin: 0 4.5em;
-  width: 90%;
-  height: 10em;
-}
-
-footer nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+#footer {
+  margin: 0;
   background-color: #195973;
-  color: white;
-  padding: 20px;
+  width: 100%;
+  padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
-
-footer nav a {
-  padding: 20px;
-  color: white;
-  text-decoration: none;
+@media (max-width: 600px) {
+  #nav {
+    flex-direction: column;
+  }
+    #main{
+        flex-wrap: wrap;
+    }
+    
 }
-footer nav a:hover {
-  background-color: #1de9b6;
-  color: black;
 }
