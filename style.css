@@ -22,13 +22,24 @@ body {
   padding: 0;
 }
 
+#nav a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  transform: translateY(-0.2em);
+}
+
 #nav li {
   color: white;
 }
+
 #nav li:hover {
   color: black;
-  text-decoration: underline;
 }
+
 #main {
   margin: 0;
   background: url(jonathan-borba-3o5oUjrD90w-unsplash_1.jpg) no-repeat center
@@ -46,6 +57,7 @@ body {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
 @media (max-width: 600px) {
   #nav {
     flex-direction: column;
