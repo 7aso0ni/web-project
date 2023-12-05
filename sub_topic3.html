@@ -1,76 +1,111 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-  <link type="text/css" rel="stylesheet" href="style3.css">
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style3.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
+  </head>
+  <body>
     <script>
-    function read_more(){
-        var extra_cont=document.getElementById("extra_content");
+      function read_more() {
+        var extra_cont = document.getElementById("extra_content");
         var button_readm = document.getElementById("rm_button");
-        
-        if (extra_cont.style.display === "" || extra_cont.style.display === "none"){
-            extra_cont.style.display = "block";
-            button_readm.textContent="Read Less";
-            
-           
-    }
-        else {
-            extra_cont.style.display = "none";
-            button_readm.textContent="Read More";
-        }
-    }
-    </script>
-  <div id="header">
-    <span id="title">Mariana Trench</span>
-    <br>
-    <ul id="nav">
-      <a href="#"><li>HOME</li></a>
-      <a href="#"><li>The Mariana Trench</li></a>
-      <a href="#"><li>Wild life</li></a>
-      <a href="#"><li>Pollution</li></a>
-      <a href="#"><li>Mockup</li></a>
-      <a href="#"><li>Our story</li></a>
-    </ul>
-    <br>
-  </div>
-  <div id="main">
-      <div id="main_content">
-      <h1>Pollution in the Mariana Trench</h1>
-      Pollution in the Marina Trench is an alarming issue that has gained significant attention in recent years. The Marina Trench is the deepest part of the world's oceans, reaching depths of about 36,000 feet. However, despite its remote location, it is not immune to human impact. Pollution is threatening the delicate balance of this unique ecosystem, with devastating consequences for marine life and the environment.The three primary factors are responsible for pollution: plastic waste, chemicals, and noise.
-    <div id="extra_content">
-      <h2>Plastic Pollution</h2>
-<img id="pic1_topic3"src="shutterstock_177388193-removebg-preview.png">
-      Plastic contamination is one of the biggest environmental problems the Marina Trench is currently facing. Plastic debris enters the deep ocean despite its isolation through a variety of channels, such as surface human activity and ocean currents. Plastics' inability to biodegrade puts marine life in the trench in grave danger. Plastic waste can entangle deep-sea species or be mistaken for food, resulting in harm, asphyxia, or hunger.
-    <br>
-    <h2>Chemical Contamination</h2>
-    <img id="pic1_topic3" src="compressed-5f731763dd382e72367a37fe-1608558632862-removebg-preview.png">
-    Chemical pollution is another pressing issue affecting the Marina Trench. Toxic substances such as heavy metals, pesticides, and industrial chemicals are released into the ocean through runoff, sewage disposal, and oil spills. These pollutants can accumulate in the food chain, gradually reaching organisms in the trench. The long-term effects of chemical contamination on deep-sea ecosystems remain largely unknown, but they have the potential to disrupt the delicate balance of life in this unique environment.
-    <h2>Noise pollution</h2>
-    <img id="pic1_topic3" src="Screenshot%202023-11-21%20201358.png">
-    The Marina Trench is a habitat characterized by silence, but human activities have introduced noise pollution into this once-quiet realm. Underwater drilling, military sonar systems, and shipping traffic generate high-intensity sounds that can disturb and harm marine life. Many deep-sea species rely on sound for communication, navigation, and foraging, and excessive noise can interfere with their essential behaviors, leading to disorientation, stress, and even death.  
-        </div>
-          <div>
-        <button id="rm_button" onclick="read_more()">Read More </button>
-            </div>
 
-    <div id="solution">
-    <h1>How can we save the Mariana Trench?</h1>
-    You can help save the marina trench by raising awareness about pollution issues by discussing them on social media, joining protests, or even sharing our website!. This can help us save the beauty of the marina trench and it's wildlife.
+        if (
+          extra_cont.style.display === "" ||
+          extra_cont.style.display === "none"
+        ) {
+          extra_cont.style.display = "block";
+          button_readm.textContent = "Read Less";
+        } else {
+          extra_cont.style.display = "none";
+          button_readm.textContent = "Read More";
+        }
+      }
+    </script>
+    <div id="header">
+      <span id="title">Mariana Trench</span>
+      <br />
+      <ul id="nav">
+        <a href="#"><li>HOME</li></a>
+        <a href="#"><li>The Mariana Trench</li></a>
+        <a href="#"><li>Wild life</li></a>
+        <a href="#"><li>Pollution</li></a>
+        <a href="#"><li>Mockup</li></a>
+        <a href="#"><li>Our story</li></a>
+      </ul>
+      <br />
+    </div>
+    <div id="main">
+      <div id="main_content">
+        <h1>Pollution in the Mariana Trench</h1>
+        Pollution in the Marina Trench is an alarming issue that has gained
+        significant attention in recent years. The Marina Trench is the deepest
+        part of the world's oceans, reaching depths of about 36,000 feet.
+        However, despite its remote location, it is not immune to human impact.
+        Pollution is threatening the delicate balance of this unique ecosystem,
+        with devastating consequences for marine life and the environment.The
+        three primary factors are responsible for pollution: plastic waste,
+        chemicals, and noise.
+        <div id="extra_content">
+          <h2>Plastic Pollution</h2>
+          <img
+            id="pic1_topic3"
+            src="shutterstock_177388193-removebg-preview.png"
+          />
+          Plastic contamination is one of the biggest environmental problems the
+          Marina Trench is currently facing. Plastic debris enters the deep
+          ocean despite its isolation through a variety of channels, such as
+          surface human activity and ocean currents. Plastics' inability to
+          biodegrade puts marine life in the trench in grave danger. Plastic
+          waste can entangle deep-sea species or be mistaken for food, resulting
+          in harm, asphyxia, or hunger.
+          <br />
+          <h2>Chemical Contamination</h2>
+          <img
+            id="pic1_topic3"
+            src="compressed-5f731763dd382e72367a37fe-1608558632862-removebg-preview.png"
+          />
+          Chemical pollution is another pressing issue affecting the Marina
+          Trench. Toxic substances such as heavy metals, pesticides, and
+          industrial chemicals are released into the ocean through runoff,
+          sewage disposal, and oil spills. These pollutants can accumulate in
+          the food chain, gradually reaching organisms in the trench. The
+          long-term effects of chemical contamination on deep-sea ecosystems
+          remain largely unknown, but they have the potential to disrupt the
+          delicate balance of life in this unique environment.
+          <h2>Noise pollution</h2>
+          <img id="pic1_topic3" src="Screenshot%202023-11-21%20201358.png" />
+          The Marina Trench is a habitat characterized by silence, but human
+          activities have introduced noise pollution into this once-quiet realm.
+          Underwater drilling, military sonar systems, and shipping traffic
+          generate high-intensity sounds that can disturb and harm marine life.
+          Many deep-sea species rely on sound for communication, navigation, and
+          foraging, and excessive noise can interfere with their essential
+          behaviors, leading to disorientation, stress, and even death.
         </div>
+        <div>
+          <button id="rm_button" onclick="read_more()">Read More</button>
+        </div>
+
+        <div id="solution">
+          <h1>How can we save the Mariana Trench?</h1>
+          You can help save the marina trench by raising awareness about
+          pollution issues by discussing them on social media, joining protests,
+          or even sharing our website!. This can help us save the beauty of the
+          marina trench and it's wildlife.
+        </div>
+      </div>
     </div>
+    <div id="footer">
+      <ul id="nav">
+        <a href="#"><li>HOME</li></a>
+        <a href="#"><li>The Mariana Trench</li></a>
+        <a href="#"><li>Wild life</li></a>
+        <a href="#"><li>Pollution</li></a>
+        <a href="#"><li>Mockup</li></a>
+        <a href="#"><li>Our story</li></a>
+      </ul>
     </div>
-  <div id="footer">
-    <ul id="nav">
-      <a href="#"><li>HOME</li></a>
-      <a href="#"><li>The Mariana Trench</li></a>
-      <a href="#"><li>Wild life</li></a>
-      <a href="#"><li>Pollution</li></a>
-      <a href="#"><li>Mockup</li></a>
-      <a href="#"><li>Our story</li></a>
-    </ul>
-  </div>
-</body>
+  </body>
 </html>
