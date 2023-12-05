@@ -133,6 +133,7 @@ button:hover {
 .summary {
   flex: 2;
   width: 30%;
+  margin-left: 5em;
 }
 
 #footer {
